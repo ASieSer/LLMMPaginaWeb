@@ -259,10 +259,10 @@ tr:nth-child(odd) {
 #divvideojuegos:hover {
     background-color: #4dad5b;
 }
-#divpagina4 {
+#divFormularios {
     border-bottom: 5px solid #30a7d7;
 }
-#divpagina4:hover {
+#divFormularios:hover {
     background-color: #30a7d7;
 }
 #divsobrenosotros {
@@ -480,6 +480,6 @@ tr:nth-child(odd) {
 *   #E3350D - Color nav Inicio
 *   #e6bc2f - Color nav Pokédex
 *   #4dad5b - Color nav Videojuegos
-*   #30a7d7 - Color nav pagina4
+*   #30a7d7 - Color nav Formularios
 *   #7f2ac4 - Color nav Sobre nosotros
 */
