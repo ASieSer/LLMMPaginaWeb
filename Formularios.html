@@ -36,7 +36,7 @@
         </div>
         <div id="divFormularios">
             <a class="linknavegacion" href="./Formularios.html">
-            <p class="efectosnavegacion">Página4</p>
+            <p class="efectosnavegacion">Formularios</p>
             </a>
         </div>
         <div id="divsobrenosotros">
@@ -58,17 +58,37 @@
             </div>
             
             <div class="contenidoGeneral">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue interdum justo at fermentum. Nam vel imperdiet erat. Ut ullamcorper tempus pharetra. Phasellus nisl orci, congue et laoreet vitae, ullamcorper sed neque. Aenean id viverra orci, eget laoreet diam. Quisque nec nulla sem. Suspendisse accumsan neque vel tincidunt tristique. In congue mauris vel consequat scelerisque. Pellentesque mauris nisl, condimentum vel urna eu, condimentum auctor tortor. Etiam euismod finibus orci eget consectetur. Proin gravida quam nec efficitur elementum.
+                <div id="formularios">
+                <div id="formulariosIzquierda">
+                    <form id="datospersonales">
+                        <fieldset id="fieldDatosPersonales">
+                            <legend><b>DATOS PERSONALES</b></legend>
+                                <label for="name">Nombre:</label><br>
+                                <input type="text" id="name" name="name" size="15" maxlength="15" required><br><br>
+                            
+                                <label for="surname">Apellidos: </label><br>
+                                <input type="text" id="surname" name="surname" size="35" maxlength="35" required><br><br>
+                            
+                                <label for="mail">Dirección correo:</label><br>
+                                <input type="email" id="mail" name="mail" size="35" required><br><br>
+                            
+                                <label for="tlf">Teléfono:</label><br>
+                                <input type="tel" id="numero" name="numero" size="15" maxlength="12" placeholder="123-45-67-89" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required><br><br>
+                            
+                                <label>Fecha de nacimiento:</label><br>
+                                <input type="date" id="nac" name="nac" max="0000-00-00"><br>
+                            <div>
+                                <br>
+                                <input type="submit" id="enviarDatosPersonales">
+                                <input type="reset" id="restablecer">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div id="formulariosDerecha">
 
-                    Quisque accumsan sem eget metus placerat interdum a vel arcu. Nunc vitae erat metus. Vivamus pretium magna eu ante dapibus vehicula sed vel dolor. Ut ultricies convallis blandit. Fusce gravida, lacus non mattis condimentum, tellus purus blandit turpis, nec condimentum velit tortor vel magna. Aenean vulputate purus ut eros sodales, non dictum odio ultrices. Nam mattis suscipit pellentesque. Praesent sed urna sit amet purus efficitur efficitur non a libero. Suspendisse in sem massa. Sed nec ligula sagittis, gravida turpis id, iaculis nunc. Proin augue magna, dignissim a bibendum at, consequat vel nibh. Mauris et imperdiet urna. Aliquam eu arcu fermentum, elementum massa non, varius massa. Sed congue porta purus, quis convallis magna rutrum nec. Duis aliquam lorem sit amet laoreet tempor.
-                    
-                    Aliquam vel faucibus mi. Donec sed lacinia ex. Cras sit amet neque nec nulla consectetur rutrum non sed diam. Nunc vel ex justo. Donec pellentesque nec felis eu convallis. Pellentesque eu condimentum nulla. Nullam aliquet dignissim arcu, eget bibendum mauris egestas dapibus. Sed facilisis enim interdum rutrum tempor. Curabitur semper rhoncus sodales. Morbi auctor nisi arcu, ut maximus sapien fringilla ut.
-                    
-                    Morbi odio diam, interdum sed leo nec, rutrum aliquam sapien. Aliquam mollis consectetur orci non suscipit. Proin eu felis sed nunc euismod porta vel vitae odio. Pellentesque ac ornare massa, quis sollicitudin nulla. Etiam malesuada orci lacus, eu fringilla lacus rhoncus et. Praesent rhoncus varius elit, quis accumsan urna tempus et. Ut id rhoncus justo. Aenean sodales consectetur enim eget vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ac tortor sed est convallis lobortis at ac augue. Sed hendrerit, nisi ac semper cursus, elit neque imperdiet ante, vitae semper dui lectus nec nisi. Sed interdum ultrices viverra. Cras tristique nibh in turpis posuere consequat.
-                    
-                    Nulla ultrices ex eget rhoncus maximus. Maecenas hendrerit ut ante sit amet sagittis. In blandit libero lacus, vel vulputate lorem viverra ac. Nam mi eros, eleifend sed metus non, faucibus finibus massa. Integer dignissim maximus tempus. Nunc ullamcorper purus non fringilla maximus. Integer eu ultrices augue, nec pretium nisl. Aenean rutrum porttitor sagittis. Ut sagittis nibh vitae dapibus lobortis. Phasellus vitae luctus felis, et dictum dolor. Proin vulputate ligula augue, id varius diam tincidunt non. Ut porttitor pellentesque risus, sed eleifend arcu condimentum at. Vestibulum ac augue laoreet, efficitur tortor vel, venenatis dolor. Integer eget metus arcu. Duis finibus vel felis eu ultrices.
-                </p>
+                </div>
+                </div>
             </div>
         </div>
     </div>
@@ -78,3 +98,33 @@
     <p id="textofooter">Página web creada con HTML/CSS, por <a href="./sobrenosotros.html">SIERRA S.L</a></p>
 </footer>
 </html>
+
+
+<!-- 
+
+    <form>
+                    <fieldset>
+                        <legend><b>DATOS PERSONALES</b></legend>
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" size="15" maxlength="15" required><br>
+                        
+                            <label for="surname">Apellidos: </label>
+                            <input type="text" id="surname" name="surname" size="35" maxlength="35" required><br>
+                        
+                            <label for="mail">Dirección correo:</label>
+                            <input type="email" id="mail" name="mail" size="35" required><br>
+                        
+                            <label for="tlf">Teléfono:</label>
+                            <input type="tel" id="numero" name="numero" size="15" maxlength="12" placeholder="123-45-67-89" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required><br>
+                        
+                            <label>Fecha de nacimiento:</label>
+                            <input type="date" id="nac" name="nac" max="0000-00-00"><br>
+
+                        <div>
+                            <input type="submit" id="enviarDatosPersonales">
+                            <input type="reset" id="restablecer">
+                        </div>
+                    </fieldset>
+                </form>
+
+-->

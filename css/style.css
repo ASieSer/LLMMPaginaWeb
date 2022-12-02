@@ -437,6 +437,38 @@ tr:nth-child(odd) {
     border: 5px solid #7860E0;
 }
 
+#formularios {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 10px solid;
+}
+
+#formulariosIzquierda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-right: 2vw;
+    padding: 2vh;
+}
+
+#datospersonales {
+    width: 50%;
+}
+
+#fieldDatosPersonales {
+    padding: 2vh;
+}
+
+#formulariosDerecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 2vh;
+    margin-left: 2vw;
+}
 
 /* ------------------------------ FUENTES ------------------------------ */
 @font-face {
