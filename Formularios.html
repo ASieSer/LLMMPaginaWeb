@@ -59,6 +59,8 @@
             
             <div class="contenidoGeneral">
                 <div id="formularios">
+
+                <!-- -------------------- FORMULARIOS DEL LADO IZQUIERDO -------------------- -->
                 <div id="formulariosIzquierda">
                     <form id="datospersonales">
                         <fieldset id="fieldDatosPersonales">
@@ -85,8 +87,100 @@
                         </fieldset>
                     </form>
                 </div>
+                <!-- -------------------- FORMULARIOS DEL LADO DERECHO -------------------- -->
                 <div id="formulariosDerecha">
-
+                    <form id="gustosPokemon">
+                        <fieldset id="fieldGustosPokemon">
+                            <legend><b>GUSTOS SOBRE POKÉMON</b></legend>
+                            
+                            <label for="formJuegoFav">¿Cuál es tu juego de Pokémon favorito?: </label><br>
+                            <select id="seleccionJuegoPokemon" name="seleccionJuegoPokemon" size="1">
+                                <option value="RubiZafiro">Pokémon Rubí y Zafiro</option>
+                                <option value="VerdeHojaRojoFuego">Pokémon Verde Hoja/Rojo Fuego</option>
+                                <option value="Esmeralda">Pokémon Esmeralda</option>
+                                <option value="DiamantePerla">Pokémon Diamante/Perla</option>
+                                <option value="Platino">Pokémon Platino</option>
+                                <option value="OroPlata">Pokémon Oro/Plata</option>
+                                <option value="NegraBlanca">Pokémon Negra/Blanca</option>
+                                <option value="NegraBlanca2">Pokémon Negra 2/Blanca 2</option>
+                                <option value="PokemonXY">Pokémon X/Y</option>
+                                <option value="RubiOmegaZafiroAlfa">Pokémon Rubí Omega/Zafiro Alfa</option>
+                                <option value="PokemonGO">Pokémon GO</option>
+                                <option value="SolYLuna">Pokémon Sol/Luna</option>
+                                <option value="UltraSolLuna">Pokémon UltraSol/UltraLuna</option>
+                                <option value="EspadaEscudo">Pokémon Espada/Escudo</option>
+                                <option value="DiamantePerlaRemake">Pokémon Diamante Brillante/Perla Reluciente</option>
+                                <option value="LeyendasArceus">Pokémon Leyendas Arceus</option>
+                                <option value="EscarlataPurpura">Pokémon Escarlata/Púrpura</option>
+                            </select><br>
+                            
+                            <label for="formPokemonFav">¿Cuál es tu pokémon favorito?: </label><br>
+                            <input type="text" id="pokemonFav" name="pokemonFav"> <br>
+    
+                            <label for="formInicialFav">¿Cuál es tu pokémon inicial favorito?: </label><br>
+                            <select id="inicialFav" name="inicialFav" size="1">
+                                <option value="Bulbasaur">Bulbasaur</option>
+                                <option value="Charmander">Charmander</option>
+                                <option value="Squirtle">Squirtle</option>
+                                <option value="Pikachu">Pikachu</option>
+                                <option value="Chikorita">Chikorita</option>
+                                <option value="Cyndaquill">Cyndaquill</option>
+                                <option value="Totodile">Totodile</option>
+                                <option value="Treecko">Treecko</option>
+                                <option value="Torchic">Torchic</option>
+                                <option value="Mudkip">Mudkip</option>
+                                <option value="Turtwig">Turtwig</option>
+                                <option value="Chimchar">Chimchar</option>
+                                <option value="Piplup">Piplup</option>
+                                <option value="Snivy">Snivy</option>
+                                <option value="Tepig">Tepig</option>
+                                <option value="Oshawott">Oshawott</option>
+                                <option value="Chespin">Chespin</option>
+                                <option value="Fennekin">Fennekin</option>
+                                <option value="Froakie">Froakie</option>
+                                <option value="Rowlet">Rowlet</option>
+                                <option value="Litten">Litten</option>
+                                <option value="Popplio">Popplio</option>
+                                <option value="Grookey">Grookey</option>
+                                <option value="Scorbunny">Scorbunny</option>
+                                <option value="Sobble">Sobble</option>
+                                <option value="Sprigatito">Sprigatito</option>
+                                <option value="Fuecoco">Fuecoco</option>
+                                <option value="Quaxly">Quaxly</option>
+                            </select><br>
+                            
+                            <label for="formLegendarioFav">¿Cuál es tu pokémon legendario favorito?: </label><br>
+                            <input type="text" id="legendarioFav" name="legendarioFav"><br>
+                            
+                            <label for="formTipoFav">¿Tipo favorito?: </label><br>
+                            <select id="tipoFav" name="tipoFav">
+                                <option value="Normal">Normal</option>
+                                <option value="Lucha">Lucha</option>
+                                <option value="Volador">Volador</option>
+                                <option value="Veneno">Veneno</option>
+                                <option value="Tierra">Tierra</option>
+                                <option value="Roca">Roca</option>
+                                <option value="Bicho">Bicho</option>
+                                <option value="Fantasma">Fantasma</option>
+                                <option value="Acero">Acero</option>
+                                <option value="Fuego">Fuego</option>
+                                <option value="Agua">Agua</option>
+                                <option value="Planta">Planta</option>
+                                <option value="Eléctrico">Eléctrico</option>
+                                <option value="Psíquico">Psíquico</option>
+                                <option value="Hielo">Hielo</option>
+                                <option value="Dragón">Dragón</option>
+                                <option value="Siniestro">Siniestro</option>
+                                <option value="Hada">Hada</option>
+                            </select><br>
+                            
+                            <div>
+                                <input type="submit" id="enviarDatosPersonales">
+                                <input type="reset" id="restablecer">
+                            </div>
+                            
+                        </fieldset>
+                        </form>
                 </div>
                 </div>
             </div>
@@ -98,33 +192,3 @@
     <p id="textofooter">Página web creada con HTML/CSS, por <a href="./sobrenosotros.html">SIERRA S.L</a></p>
 </footer>
 </html>
-
-
-<!-- 
-
-    <form>
-                    <fieldset>
-                        <legend><b>DATOS PERSONALES</b></legend>
-                            <label for="name">Nombre:</label>
-                            <input type="text" id="name" name="name" size="15" maxlength="15" required><br>
-                        
-                            <label for="surname">Apellidos: </label>
-                            <input type="text" id="surname" name="surname" size="35" maxlength="35" required><br>
-                        
-                            <label for="mail">Dirección correo:</label>
-                            <input type="email" id="mail" name="mail" size="35" required><br>
-                        
-                            <label for="tlf">Teléfono:</label>
-                            <input type="tel" id="numero" name="numero" size="15" maxlength="12" placeholder="123-45-67-89" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required><br>
-                        
-                            <label>Fecha de nacimiento:</label>
-                            <input type="date" id="nac" name="nac" max="0000-00-00"><br>
-
-                        <div>
-                            <input type="submit" id="enviarDatosPersonales">
-                            <input type="reset" id="restablecer">
-                        </div>
-                    </fieldset>
-                </form>
-
--->

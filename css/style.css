@@ -470,6 +470,15 @@ tr:nth-child(odd) {
     margin-left: 2vw;
 }
 
+#gustosPokemon {
+    width: 50%;
+}
+
+#fieldGustosPokemon {
+    padding: 2vh;
+}
+
+
 /* ------------------------------ FUENTES ------------------------------ */
 @font-face {
     font-family: 'Flexo-Regular';
