@@ -51,33 +51,29 @@
     <div class="container">
         <div class="subcontainer">
             <div id="mensajebienvenida">
-                <h1 id="tituloBienvenida">Bla bla bla</h1>
+                <h1 id="tituloBienvenida">Formularios</h1>
             </div>
             <div id="mensajesobrepagina">
-                <h2 id="introinicio">En esta página bla bla bla bla</h2>
+                <h2 id="introinicio">En esta página tenemos varios formularios para conocerte un poco ^-^</h2>
             </div>
             
             <div class="contenidoGeneral">
-                <div id="formularios">
-
-                <!-- -------------------- FORMULARIOS DEL LADO IZQUIERDO -------------------- -->
-                <div id="formulariosIzquierda">
-                    <form id="datospersonales">
+                    <form id="datospersonales" action="/action_page.php">
                         <fieldset id="fieldDatosPersonales">
-                            <legend><b>DATOS PERSONALES</b></legend>
-                                <label for="name">Nombre:</label><br>
+                            <legend class="legendForms"><b>DATOS PERSONALES</b></legend>
+                                <label for="name">Nombre:</label>
                                 <input type="text" id="name" name="name" size="15" maxlength="15" required><br><br>
                             
-                                <label for="surname">Apellidos: </label><br>
-                                <input type="text" id="surname" name="surname" size="35" maxlength="35" required><br><br>
+                                <label for="surname">Apellidos: </label>
+                                <input type="text" id="surname" name="surname" size="20" maxlength="20" required><br><br>
                             
-                                <label for="mail">Dirección correo:</label><br>
-                                <input type="email" id="mail" name="mail" size="35" required><br><br>
+                                <label for="mail">Dirección correo:</label>
+                                <input type="email" id="mail" name="mail" size="30" required><br><br>
                             
-                                <label for="tlf">Teléfono:</label><br>
+                                <label for="tlf">Teléfono:</label>
                                 <input type="tel" id="numero" name="numero" size="15" maxlength="12" placeholder="123-45-67-89" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required><br><br>
                             
-                                <label>Fecha de nacimiento:</label><br>
+                                <label>Fecha de nacimiento:</label>
                                 <input type="date" id="nac" name="nac" max="0000-00-00"><br>
                             <div>
                                 <br>
@@ -86,14 +82,12 @@
                             </div>
                         </fieldset>
                     </form>
-                </div>
-                <!-- -------------------- FORMULARIOS DEL LADO DERECHO -------------------- -->
-                <div id="formulariosDerecha">
-                    <form id="gustosPokemon">
+                
+                    <form id="gustosPokemon" action="/action_page.php">
                         <fieldset id="fieldGustosPokemon">
-                            <legend><b>GUSTOS SOBRE POKÉMON</b></legend>
+                            <legend class="legendForms"><b>SOBRE POKÉMON</b></legend>
                             
-                            <label for="formJuegoFav">¿Cuál es tu juego de Pokémon favorito?: </label><br>
+                            <label for="formJuegoFav">Juego de Pokémon favorito?: </label>
                             <select id="seleccionJuegoPokemon" name="seleccionJuegoPokemon" size="1">
                                 <option value="RubiZafiro">Pokémon Rubí y Zafiro</option>
                                 <option value="VerdeHojaRojoFuego">Pokémon Verde Hoja/Rojo Fuego</option>
@@ -112,12 +106,12 @@
                                 <option value="DiamantePerlaRemake">Pokémon Diamante Brillante/Perla Reluciente</option>
                                 <option value="LeyendasArceus">Pokémon Leyendas Arceus</option>
                                 <option value="EscarlataPurpura">Pokémon Escarlata/Púrpura</option>
-                            </select><br>
+                            </select><br><br>
                             
-                            <label for="formPokemonFav">¿Cuál es tu pokémon favorito?: </label><br>
-                            <input type="text" id="pokemonFav" name="pokemonFav"> <br>
+                            <label for="formPokemonFav">¿Cuál es tu pokémon favorito?: </label>
+                            <input type="text" id="pokemonFav" name="pokemonFav"> <br><br>
     
-                            <label for="formInicialFav">¿Cuál es tu pokémon inicial favorito?: </label><br>
+                            <label for="formInicialFav">¿Cuál es tu pokémon inicial favorito?: </label>
                             <select id="inicialFav" name="inicialFav" size="1">
                                 <option value="Bulbasaur">Bulbasaur</option>
                                 <option value="Charmander">Charmander</option>
@@ -147,12 +141,12 @@
                                 <option value="Sprigatito">Sprigatito</option>
                                 <option value="Fuecoco">Fuecoco</option>
                                 <option value="Quaxly">Quaxly</option>
-                            </select><br>
+                            </select><br><br>
                             
-                            <label for="formLegendarioFav">¿Cuál es tu pokémon legendario favorito?: </label><br>
-                            <input type="text" id="legendarioFav" name="legendarioFav"><br>
+                            <label for="formLegendarioFav">¿Cuál es tu pokémon legendario favorito?: </label>
+                            <input type="text" id="legendarioFav" name="legendarioFav"><br><br>
                             
-                            <label for="formTipoFav">¿Tipo favorito?: </label><br>
+                            <label for="formTipoFav">¿Tipo favorito?: </label>
                             <select id="tipoFav" name="tipoFav">
                                 <option value="Normal">Normal</option>
                                 <option value="Lucha">Lucha</option>
@@ -172,7 +166,7 @@
                                 <option value="Dragón">Dragón</option>
                                 <option value="Siniestro">Siniestro</option>
                                 <option value="Hada">Hada</option>
-                            </select><br>
+                            </select><br><br>
                             
                             <div>
                                 <input type="submit" id="enviarDatosPersonales">
@@ -180,9 +174,7 @@
                             </div>
                             
                         </fieldset>
-                        </form>
-                </div>
-                </div>
+                    </form>
             </div>
         </div>
     </div>

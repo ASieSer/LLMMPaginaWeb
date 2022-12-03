@@ -380,7 +380,7 @@ tr:nth-child(odd) {
 .muchotextoizquierda {
     display: flex;
     flex-flow: column;
-    width: 40vw;
+    width: 75vw;
 }
 
 
@@ -393,16 +393,25 @@ tr:nth-child(odd) {
     align-items: center;
 }
 
-/* .pcontenidoinicio {
-
-} */
+.pcontenidoinicio {
+    text-align: left;
+    font-size: 1.9vh;
+}
 
 #sumario {
     width: 33vw;
     padding: 1vh;
     font-size: 1.8vh;
+    border: 2px solid;
     border-radius: 1vh;
     text-align: left;
+}
+
+#divSumario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
 }
 
 #legendsumario {
@@ -434,48 +443,57 @@ tr:nth-child(odd) {
 }
 
 #imagenSobremi {
-    border: 5px solid #7860E0;
+    border: 3px solid #7860E0;
+}
+
+form {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding: 0.7vh;
 }
 
 #formularios {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    border: 10px solid;
-}
-
-#formulariosIzquierda {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
-    margin-right: 2vw;
-    padding: 2vh;
+    text-align: left;
+    width: 100%;
+    border: 10px solid;
+    background-image: url(../images/FondoNegroPagina.png);
+}
+
+legend {
+    text-align: center;
+}
+
+input {
+    padding: 0.1vh;
+}
+
+select {
+    padding: 0.2vh;
 }
 
 #datospersonales {
     width: 50%;
+    color: #464646;
+    text-align: left;
 }
 
 #fieldDatosPersonales {
     padding: 2vh;
-}
-
-#formulariosDerecha {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    padding: 2vh;
-    margin-left: 2vw;
+    border: 2px solid;
 }
 
 #gustosPokemon {
     width: 50%;
+    color: #464646;
+    text-align: left;
 }
 
 #fieldGustosPokemon {
     padding: 2vh;
+    border: 2px solid;
 }
 
 
@@ -492,6 +510,64 @@ tr:nth-child(odd) {
     font-family: 'Flexo-Demi';
     src: url(../fonts/Flexo-Demi.ttf) format('truetype');
 }
+
+@media only screen and (max-width: 426px) {
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #formularios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        width: 100%;
+        border: none;
+    }
+    
+    #datospersonales {
+        width: 83%;
+    }
+
+    #gustosPokemon {
+        width: fit-content;
+        align-items: center;
+        margin-left: 22vw;
+    }
+
+    #imagenSobremi {
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #formularios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        width: 100%;
+        border: 10px solid;
+    }
+    #datospersonales {
+        margin-right: 10vw;
+    }
+
+    #gustosPokemon {
+        margin-right: 22vw;
+    }
+}
+
+
 /* ------------------------------ FUENTES ------------------------------ */
 /* --------------------------------------------------------------------- */
 /*
